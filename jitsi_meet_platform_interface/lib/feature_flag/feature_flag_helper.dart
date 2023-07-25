@@ -21,5 +21,6 @@ class FeatureFlagHelper {
     FeatureFlagEnum.TILE_VIEW_ENABLED: 'tile-view.enabled',
     FeatureFlagEnum.TOOLBOX_ALWAYS_VISIBLE: 'toolbox.alwaysVisible',
     FeatureFlagEnum.WELCOME_PAGE_ENABLED: 'welcomepage.enabled',
+     FeatureFlagEnum.SETTINGS_ENABLED: 'settings.enabled',
   };
 }
