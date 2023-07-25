@@ -25,6 +25,7 @@ class FeatureFlag {
   bool? toolboxAlwaysVisible;
   bool? videoShareButtonEnabled;
   bool? welcomePageEnabled;
+  bool? settingsEnabled;
 
   int? get resoulution {
     return _resolution;
@@ -49,6 +50,10 @@ class FeatureFlag {
     if (addPeopleEnabled != null)
       featureFlags[FeatureFlagHelper
           .featureFlags[FeatureFlagEnum.ADD_PEOPLE_ENABLED]] = addPeopleEnabled;
+
+    if (settingsEnabled != null)
+      featureFlags[FeatureFlagHelper
+          .featureFlags[FeatureFlagEnum.SETTINGS_ENABLED]] = settingsEnabled;
 
     if (calendarEnabled != null)
       featureFlags[FeatureFlagHelper

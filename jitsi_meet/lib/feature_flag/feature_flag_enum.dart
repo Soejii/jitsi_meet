@@ -2,6 +2,10 @@
 /// Reflects the official list of Jitsi Meet SDK 2.11.0 feature flags
 /// https://github.com/jitsi/jitsi-meet/blob/master/react/features/base/flags/constants.js
 enum FeatureFlagEnum {
+  // Flag indicating if settings should be enabled.
+  // Default: enabled (true).
+  SETTINGS_ENABLED,
+
   /// Flag indicating if add-people functionality should be enabled.
   /// Default: enabled (true).
   ADD_PEOPLE_ENABLED,
