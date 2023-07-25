@@ -1,6 +1,6 @@
 # jitsi_meet
 
-#### forked https://github.com/gunschu/jitsi_meet for custom modifications by TECHUICK
+#### forked https://github.com/gunschu/jitsi_meet for custom modifications by Me ofc
 
 
 Jitsi Meet Plugin for Flutter. Supports Android, iOS, and Web platforms.
